@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form"">
+        <fieldset>
+            <legend>Person Details</legend>
+
+            <label for="">
+                Enter your name
+            </label>
+            <input type="text" name="user_name" placeholder="billy"><br><br>
+
+            <label for="">
+                Enter your phone number
+            </label>
+            <input type="number" placeholder="+224623952011" required><br><br>
+            <label for="">
+                enter your age
+            </label>
+            <input type="text" name="user_age" placeholder="40"><br><br>
+
+            <label for="">
+                Enter your email address
+            </label>
+            <input type="email" name="user_amail" placeholder="billydoumbouya5210@gmail.com" required><br><br>
+
+            <label for="">
+                country
+            </label>
+            <select name="user_country" aria-placeholder="Guinea" required>
+                <option value="" required>---choose your country---</option>
+
+                <option value="Nigeria">Nigeria</option>
+                <option value="Gunea">Gunea</option>
+                <option value="Togo">Togo</option>
+                <option value="South Africa">South Africa</option>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend> Company Information</legend>
+
+            <label for="">
+                Company Name
+            </label>
+            <input type="text" name="Company_name"><br><br>
+            <label for="">
+                Registration Certificate
+            </label>
+            <input type="file" name="Registration Certificate"><br><br>
+            <label for="">
+                Employee Count:
+            </label><br>
+            <input type="radio" name="Employee-Count" value="1-5"> <label>1-5 people</label><br>
+            <input type="radio" name="Employee-Count" value=5-10"> <label>5-10 people</label><br>
+            <input type="radio" name="Employee-Count" value="10+"> <label>10 & more people</label><br>
+
+            <label for="">
+                Company Description
+            </label><br>
+            <textarea name="Company_description" rows="15" cols="30"></textarea>
+        </fieldset>
+
+        <button>
+            submit form
+        </button>
+
+        </form>
+
+</body>
+
+</html>
